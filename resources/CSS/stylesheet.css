@@ -1,0 +1,336 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align content to the left side */
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    margin: 5 auto;
+    padding: 10px;
+}
+.content-container {
+    position: fixed;
+    display: fixed;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: rgb(188, 218, 194);
+    border: 2px solid white;
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+    opacity: 0.8;
+    z-index: 1;
+}
+.header h1 {
+    list-style-type: none;
+    display: inline-block; /* Display items inline */
+}
+h1 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.content-container {
+    float: left;
+}
+.nav-bar {
+    text-align: center;
+}
+.nav-bar li {
+    list-style-type: none;
+    display: inline-block; /* Display items inline */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-bar a {
+    color: black;
+    display: inline;
+    font-weight: 700;
+}
+.nav-bar a:hover {
+    color: purple;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.background-image {
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: 500px; /* Adjust this value for the desired banner height */
+    display: block;
+    margin: 0 auto;
+    object-fit: cover; /* To maintain image aspect ratio and cover the container */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ALL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Garamond', serif !important;
+}
+body {
+    background-color: rgb(226, 208, 161);
+    /* 
+    background-color: rgb(188, 218, 194);
+    */
+    margin: 50px;
+    }
+.main-content {
+    border: 3px solid white;
+    background-color: #FFF1B5;
+}
+h2 {
+    font-size: 32px;
+    text-shadow: 5px 5px 5px rgb(155, 153, 153);
+}
+/* HEADER */
+
+
+
+
+/* MAIN */
+.gallery {
+    text-align: center;
+    flex-wrap: wrap;  
+    margin-top: 20px;
+    border-top: 2px dashed black;
+    padding: 10px;
+}
+.gallery-container {
+    margin-bottom: 20px;
+}
+.gallery-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reveal-photos1 {
+    display: inline;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    background-color: rgb(188, 218, 194);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.reveal-photos2 {
+    display: inline;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    background-color: rgb(188, 218, 194);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.reveal-photos3 {
+    display: inline;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgb(188, 218, 194);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.reveal-photos4 {
+    display: inline;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgb(188, 218, 194);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.reveal-photos5 {
+    display: inline;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgb(188, 218, 194);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.halfling-arriving1 {
+    width: auto;
+    height: 532px;
+    border: 2px solid black;
+}
+.halfling-arriving2 {
+    width: auto;
+    height: 532px;
+    border: 2px solid black;
+}
+.baby-girl {
+    width: auto;
+    height: 350px;
+    border: 2px solid black;
+}
+.noble-excited {
+    width: auto;
+    height: 350px;
+    border: 2px solid black;
+}
+.noble-smile-ultrasound {
+    width: auto;
+    height: 350px;
+    border: 2px solid black;
+}
+.noble-shocked {
+    width: auto;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.reveal {
+    display: flex-box;
+    text-align: center;
+    flex-wrap: wrap;  
+    margin-top: 5%;
+    padding-top: 10px;
+}
+.reveal p {
+    padding-top: 30px;
+}
+.reveal-button {
+    padding-top: 30px;
+}
+
+.button {
+    background-color: rgb(226, 208, 161);
+    color: black;
+    border: 1px solid black;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+}
+
+.button:hover {
+    background-color: rgb(214, 190, 128); 
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6); 
+}
+
+.registry {
+    display: flex; /* Corrected value */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center;
+    flex-wrap: wrap;  
+    margin-top: 5%;
+    padding-top: 10px;
+}
+.registry-list ol {
+    list-style-type: none; 
+    column-count: 3; 
+    column-gap: 50px;
+    margin: 5%; /* Remove default margin */
+    padding: 50px; /* Remove default padding */
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: rgb(188, 218, 194);
+    opacity: .8;
+}
+.must-have,
+.would-love-to-have,
+.the-more-the-merrier {
+    break-inside: avoid-column; /* Prevent columns from breaking within sections */
+}
+.registry-list li {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.registry-link {
+    margin-top: 20px;
+}
+.registry-link h3 {
+    padding: 10px;
+}
+.registry-link p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+.registry-link a {
+    color: black; 
+    text-decoration: underline; 
+    font-weight: bold; 
+}
+
+.registry-link a:hover {
+    color: purple; 
+    text-decoration: none;
+}
+.registry-list a {
+    color: black; 
+    text-decoration: underline; 
+}
+
+.registry-list a:hover {
+    color: purple; 
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+    margin: 10px;
+    text-decoration: underline;
+}
+.footer-container a {
+    color: black;
+    text-decoration: none;
+}
+
+/* CONFETTI */
+#confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* 
+CONFETTI COLORS - BABY BLUE "#89CFF0" | HOT PINK "#FF69B4" | 
+CHANGE IT HERE IN THE JS FILE:
+var colors = ["#89CFF0"] 		// Set confetti color
+confettiButton.textContent = "It's a BOY!"; // Update button text
+confettiButton.style.backgroundColor = "#89CFF0"; // Set background color
+*/
+
